@@ -6,6 +6,58 @@ html {
 	box-sizing: border-box;
 }
 
-body {
-	font-size: 1.6rem;
+/* Style the header */
+
+.headermaincontainer {
+	border-bottom: 1px solid #000;
+}
+.headercontainer {
+	background-color: #fff;
+	font-family: "trebuchet ms", sans-serif;
+	padding: 0 180px;
+	overflow: auto;
+}
+
+.leftlink {
+	float: left;
+	width: 33%;
+}
+
+.name {
+	float: left;
+	width: 33%;
+	text-align: center;
+	margin: 0px 0px;
+}
+
+.name h2 {
+	font-size: 3.5rem;
+	margin: 10px 0px;
+}
+
+.name p {
+	font-size: 1.3rem;
+	margin-top: 10px;
+}
+
+.rightlink {
+	float: left;
+	width: 33%;
+	text-align: right;
+}
+
+.headercontainer a{
+	text-decoration: none;
+	font-size: 1.5rem;
+	color: #000;
+}
+
+.headercontainer a:hover {
+	color: #7e8187;
+}
+
+.headercontainer .leftlink,.headercontainer .rightlink {
+	margin-top: 27px;
+	padding: 10px;
+	
 }
