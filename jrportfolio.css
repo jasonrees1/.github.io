@@ -10,6 +10,10 @@ html {
 
 .headermaincontainer {
 	border-bottom: 1px solid #000;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    left: 0;
 }
 .headercontainer {
 	background-color: #fff;
@@ -60,4 +64,24 @@ html {
 	margin-top: 27px;
 	padding: 10px;
 	
+}
+
+/* Style the large image */
+
+.bigpicturecontainer {
+	background-image: url("bgimg.jpg");
+	background-size: cover;
+	margin-top: 88px;
+	
+}
+
+.bigpicturecontainer h3 {
+	font-family: "trebuchet ms", sans-serif;
+	font-size: 3rem;
+	text-align: center;
+}
+
+.bigpicturecontainer .content {
+	padding-top: 300px;
+	padding-bottom: 300px;
 }
