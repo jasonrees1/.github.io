@@ -107,7 +107,7 @@ html {
 }
 
 .button {
-	font-size: 4rem;
+	font-size: 2rem;
 	color: #000;
 	text-decoration: none;
 	border: 2px solid #000;
@@ -173,3 +173,76 @@ html {
 	width: 100%;
 }
 
+/* Styling the socila media bar */
+
+.smlinks img {
+	width: auto;
+	height: 50px;
+}
+
+.smlinkslarge {
+	background-color: #f1f1f1;
+	width: 100%;
+	border-top: 1px solid #000;
+	padding-top: 30px;
+}
+	
+.smlinks {
+	font-family: "trebuchet ms", sans-serif;
+	overflow: auto;
+	margin: 0 auto;
+	width: 40%;
+	text-align: center;
+}
+.icon {
+	float: left;
+	width: 33.3%;	
+}
+
+.smlinks a {
+	font-family: "trebuchet ms", sans-serif;
+	font-size: 2.5rem;
+	text-decoration: none;
+	color: #000;
+	
+}
+
+/* Styling the footer */
+.footercontainerlarge {
+	background-color: #f1f1f1;
+	width: 100%;
+	padding-bottom: 40px;
+}
+
+.footercontainer {
+	font-family: "trebuchet ms", sans-serif;
+	overflow: auto;
+	margin: 0 auto;
+	width: 70%;
+	text-align: center;
+}
+
+.link {
+	float: left;
+	width: 33.3%;	
+}
+
+.footercontainer a {
+	font-family: "trebuchet ms", sans-serif;
+	font-size: 2.5rem;
+}
+
+.icon.cv {
+	padding-top: 10px;
+}
+
+.smlinks a:hover {
+	color: #7e8187;
+}
+
+.footercontainer a {
+	font-family: "trebuchet ms", sans-serif;
+	font-size: 1.3rem;
+	text-decoration: none;
+	color: #000;
+}
