@@ -10,12 +10,17 @@
 <body>
 	<div class="headermaincontainer">
 		<div class="headercontainer">
-			<div class="leftlink">
+			<!-- Media query additions show-for-large and show-for-small allows multiple copies of elements which only appear depending on the screen size and media query being applied.-->
+			<div class="leftlink show-for-large">
 				<a href="#" class="logo">PORTFOLIO ></a>
 			</div>
 			<div class="name">
 				<h2>JASON REES</h2>
 				<p>FULL STACK WEB DEVELOPER</p>
+			</div>
+				<!-- repeated leftlink element here-->
+			<div class="leftlink show-for-small">
+				<a href="#" class="logo">PORTFOLIO ></a>
 			</div>
 			<div class="rightlink">
 				<a href="#" class="logo">CONTACT ></a>
@@ -130,13 +135,13 @@
 	<footer>
 		<div class="footercontainerlarge">
 			<div class="footercontainer">
-				<div class="link-3">
+				<div>
 					<a href="#" class="link">About Me</a>
 				</div>
-				<div class="link-3">
+				<div>
 					<a href="#" class="link">Website Portfolio</a>
 				</div>
-				<div class="link-3">
+				<div>
 					<a href="#" class="link">Contact Me</a>
 				</div>
 			</div>
