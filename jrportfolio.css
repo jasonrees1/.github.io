@@ -252,7 +252,7 @@ html {
 @media screen and (max-width:640px) {
 	.show-for-small{display:block;}
 	.show-for-large{display:none;}
-
+/* MQ's for header */
 	.headercontainer {
 		padding: 0 0px;
 	}
@@ -301,7 +301,7 @@ html {
 		padding: 10px;
 	
 	}
-	
+/* MQ's for portfolio section */
 	.bigpicturecontainer .content {
 	    padding-top: 122px;
 	    padding-bottom: 66px;
@@ -318,6 +318,28 @@ html {
 .box-1container {
 	width: 100%;
 	height: auto;
+}
+/* MQ's for about me and contact me sections */
+.myinfocontainer {
+	width: 100%;
+	margin: 0 auto;
+	overflow: auto;
+}
+
+.buttoncontainer {
+	width: 100%;
+	margin: 30px auto 0 auto;
+	text-align: center;
+}
+
+.personalinfo {
+	width: 85%;
+	font-size: 1.6rem;
+	margin-top: 17px;
+}
+
+.personalinfo p {
+	line-height: 36px;
 }
 
 
