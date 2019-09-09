@@ -171,8 +171,12 @@ html {
 	font-size: 1.5rem;
 }
 
+.box-imgcontainer {
+	text-align: center;
+}
 .box-imgcontainer img {
 	width: 100%;
+	max-width: 400px;
 }
 
 /* Styling the social media bar */
@@ -301,7 +305,7 @@ html {
 		margin-top: -1rem;
 		padding: 10px;
 	}
-/* MQ's for portfolio section */
+/* MQ's for large image section */
 	.bigpicturecontainer .content {
 	    padding-top: 211px;
 	    padding-bottom: 183px;
@@ -309,44 +313,46 @@ html {
 
 	.bigpicturecontainer h3 {
 	    line-height: 1.1rem;
-}
+	}
+	/* MQ's for about me and contact me sections */
+	.myinfocontainer {
+		width: 100%;
+		margin: 0 auto;
+		overflow: auto;
+	}
 
-.box-3container {
-	width: 100%;
-}
+	.buttoncontainer {
+		width: 100%;
+		margin-top: 34px;
+		text-align: center;
+	}
 
-.box-1container {
-	width: 100%;
-	height: auto;
-}
-/* MQ's for about me and contact me sections */
-.myinfocontainer {
-	width: 100%;
-	margin: 0 auto;
-	overflow: auto;
-}
+	.personalinfo {
+		width: 85%;
+		font-size: 1.6rem;
+		margin-top: 17px;
+	}
 
-.buttoncontainer {
-	width: 100%;
-	margin-top: 34px;
-	text-align: center;
-}
+	.personalinfo p {
+		line-height: 36px;
+	}
+	/*MQ's for portfolio section*/
+	.box-3container {
+		width: 100%;
+	}
 
-.personalinfo {
-	width: 85%;
-	font-size: 1.6rem;
-	margin-top: 17px;
-}
-
-.personalinfo p {
-	line-height: 36px;
-}
+	.box-1container {
+		padding: 0 20px;
+	}
 }
 /*Media queries for up to 768px*/
 @media screen and (max-width:768px) {
 	.show-for-small{display:block;}
 	.show-for-large{display:none;}
 /* MQ's for portfolio section */
+	.box-1container {
+		width: 100%;
+	}
 	.bigpicturecontainer .content {
 	    padding-top: 122px;
 	    padding-bottom: 66px;
