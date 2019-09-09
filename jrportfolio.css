@@ -319,16 +319,6 @@ html {
 	width: 100%;
 	height: auto;
 }
-}
-/*Media queries for up to 768px*/
-@media screen and (max-width:768px) {
-	.show-for-small{display:block;}
-	.show-for-large{display:none;}
-/* MQ's for portfolio section */
-	.bigpicturecontainer .content {
-	    padding-top: 122px;
-	    padding-bottom: 66px;
-	}
 /* MQ's for about me and contact me sections */
 .myinfocontainer {
 	width: 100%;
@@ -338,7 +328,7 @@ html {
 
 .buttoncontainer {
 	width: 100%;
-	margin: 30px auto 0 auto;
+	margin-top: 34px;
 	text-align: center;
 }
 
@@ -351,5 +341,19 @@ html {
 .personalinfo p {
 	line-height: 36px;
 }
-
+}
+/*Media queries for up to 768px*/
+@media screen and (max-width:768px) {
+	.show-for-small{display:block;}
+	.show-for-large{display:none;}
+/* MQ's for portfolio section */
+	.bigpicturecontainer .content {
+	    padding-top: 122px;
+	    padding-bottom: 66px;
+	}
+/* MQ's for about me and contact me sections */
+	.buttoncontainer {
+	width: 100%;
+	margin: 30px auto 0 auto;
+	text-align: center;
 }
