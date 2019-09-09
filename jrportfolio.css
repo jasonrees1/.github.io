@@ -249,7 +249,61 @@ html {
 	color: #000;
 }
 /* Media Queries */
-@media screen and (max-width:640px) {
+/*Media queries for between 769px and 1050px*/
+@media screen and (max-width:1050px) {
+	.show-for-small{display:block;}
+	.show-for-large{display:none;}
+/* MQ's for header */
+	.headercontainer {
+		padding: 0 0px;
+	}
+
+	.leftlink {
+		width: 40%;
+		margin-left: 10%;
+	}
+
+	.name {
+		float: none;
+		margin:0 auto;
+		width: 100%;
+		text-align: center;
+		margin: 0px 0px;
+	}
+
+	.name h2 {
+		font-size: 3.5rem;
+	}
+
+	.name p {
+		font-size: 1.3rem;
+		margin-top: 10px;
+	}
+
+	.rightlink {
+		float: right;
+		width: 40%;
+		text-align: right;
+		margin-right:10%;
+	}
+
+	.headercontainer a{
+		text-decoration: none;
+		font-size: 1.5rem;
+		color: #000;
+	}
+
+	.headercontainer a:hover {
+		color: #7e8187;
+	}
+
+	.headercontainer .leftlink,.headercontainer .rightlink {
+		margin-top:-1rem;
+		padding: 10px;
+	}
+}
+/*Media queries for up to 768px*/
+@media screen and (max-width:768px) {
 	.show-for-small{display:block;}
 	.show-for-large{display:none;}
 /* MQ's for header */
@@ -297,7 +351,7 @@ html {
 	}
 
 	.headercontainer .leftlink,.headercontainer .rightlink {
-		margin-top:2rem;
+		margin-top:-1rem;
 		padding: 10px;
 	
 	}
@@ -341,9 +395,5 @@ html {
 .personalinfo p {
 	line-height: 36px;
 }
-
-
-
-
 
 }
