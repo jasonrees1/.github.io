@@ -316,6 +316,7 @@ html {
 	}
 	/* MQ's for about me and contact me sections */
 	.myinfocontainer {
+		font-family: "trebuchet ms", sans-serif;
 		width: 100%;
 		margin: 0 auto;
 		overflow: auto;
