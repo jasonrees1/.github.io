@@ -155,7 +155,7 @@ html {
 	width: 33.3%;
 	height: auto;
 	padding: 0 50px;
-	margin-bottom:0.5rem;
+	margin-bottom: 0.5rem;
 }
 
 .box-textcontainer {
@@ -284,7 +284,7 @@ html {
 		float: right;
 		width: 40%;
 		text-align: right;
-		margin-right:10%;
+		margin-right: 10%;
 	}
 
 	.headercontainer a{
@@ -298,20 +298,15 @@ html {
 	}
 
 	.headercontainer .leftlink,.headercontainer .rightlink {
-		margin-top:-1rem;
+		margin-top: -1rem;
 		padding: 10px;
 	}
-}
-/*Media queries for up to 768px*/
-@media screen and (max-width:768px) {
-	.show-for-small{display:block;}
-	.show-for-large{display:none;}
 /* MQ's for portfolio section */
 	.bigpicturecontainer .content {
-	    padding-top: 122px;
-	    padding-bottom: 66px;
+	    padding-top: 211px;
+	    padding-bottom: 183px;
 	}
-	
+
 	.bigpicturecontainer h3 {
 	    line-height: 1.1rem;
 }
@@ -324,6 +319,16 @@ html {
 	width: 100%;
 	height: auto;
 }
+}
+/*Media queries for up to 768px*/
+@media screen and (max-width:768px) {
+	.show-for-small{display:block;}
+	.show-for-large{display:none;}
+/* MQ's for portfolio section */
+	.bigpicturecontainer .content {
+	    padding-top: 122px;
+	    padding-bottom: 66px;
+	}
 /* MQ's for about me and contact me sections */
 .myinfocontainer {
 	width: 100%;
