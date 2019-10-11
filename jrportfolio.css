@@ -50,6 +50,7 @@ html {
 	float: left;
 	width: 33%;
 	text-align: right;
+	margin: 0 auto;
 }
 
 .headercontainer a{
