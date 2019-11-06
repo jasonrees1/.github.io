@@ -110,6 +110,7 @@ html {
 
 /* About me section */
 .maininfocontainer {
+	position: relative;
 	width: 100%;
 	font-family: "Helvetica Neue", sans-serif;
 	/*border-top: 1px solid #000;*/
@@ -121,11 +122,11 @@ html {
 	background-color:#bbcfd7;
 }
 
-.myinfocontainer {
-	width: 50%;
-	margin: 0 auto;
-	overflow: auto;
-}
+/*.myinfocontainer {*/
+/*	width: 50%;*/
+/*	margin: 0 auto;*/
+/*	overflow: auto;*/
+/*}*/
 
 .buttoncontainer {
 	width: 30%;
@@ -149,10 +150,9 @@ html {
 }
 
 .personalinfo {
-	width: 70%;
 	font-size: 1.6rem;
 	padding: 3rem 8rem;
-	float: left;
+	text-align: center;
 }
 
 .personalinfo p {
@@ -169,8 +169,8 @@ html {
 	height:100%;
 	padding-bottom: 25px;
 	background-color: #bbcfd7;
-	/*border-bottom: 1rem solid #a8c2cc;*/
 	overflow:auto;
+	position: relative;
 }
 
 .portfolio-container-header {
@@ -192,10 +192,9 @@ html {
 	letter-spacing: 0.3px;
 }
 
-.box-3container {
-	overflow: auto;
-	width: 60%;
-	margin: 0 auto;
+.pfLink {
+	position: absolute;
+	top: -93px;
 }
 
 
@@ -206,9 +205,9 @@ html {
 	width: 33.3%;
 	height: auto;
 	padding: 0 50px;
-	margin-bottom: 0.5rem;
+	/*margin-bottom: 0.5rem;*/
 	transition: linear 0.25s;
-
+	min-height: 230px;
 }
 
 .box-overlay{
@@ -221,7 +220,7 @@ html {
 	margin: 0 auto;
 	background-color:#bbcfd7;
 	opacity:0;
-transition: all 0.5s;
+	transition: all 0.5s;
 	overflow:hidden;
 }
 
@@ -239,7 +238,6 @@ transition: all 0.5s;
 .box-textcontainer {
 	margin:0 auto;
 	height:auto;
-	/*color:#fff;*/
 	text-align: center;
 	font-family: "Helvetica Neue", sans-serif;
 }
@@ -260,6 +258,32 @@ transition: all 0.5s;
 .box-imgcontainer {
 	text-align: center;
 }
+
+.contactMe-header {
+	width: 100%;
+	height:100px;
+	background-color: #a8c2cc;
+	color:#112b53;
+	margin-top: 0px;
+}
+
+.myinfocontainer h1 {
+	text-align: center;
+	font-family: "Helvetica Neue", sans-serif;
+	font-size: 2.5rem;
+	font-weight: 300;
+	padding-top: 35px;
+	padding-bottom: 24px;
+	margin-top: 0;
+	color: #112b53;
+	letter-spacing: 0.3px;
+}
+
+.cntLink {
+	position: absolute;
+	top: -93px;
+}
+
 .box-imgcontainer img {
 	width: 100%;
 	max-width: 400px;
@@ -275,7 +299,6 @@ transition: all 0.5s;
 .smlinkslarge {
 	background-color: #8da8b2;
 	width: 100%;
-	/*border-top: 1px solid #000;*/
 	padding-top: 30px;
 }
 	
