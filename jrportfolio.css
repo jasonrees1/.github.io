@@ -6,7 +6,7 @@ html {
 	box-sizing: border-box;
 }
 
-.show-for-large{display:block;} /* Large scfreen show this*/
+.show-for-large{display:block;} /* Large screen show this*/
 .show-for-small{display:none;} /* Small screen show this, bit don't show above*/
 
 /* Style the header */
@@ -153,6 +153,7 @@ html {
 	font-size: 1.6rem;
 	padding: 3rem 8rem;
 	text-align: center;
+    width: 100%;
 }
 
 .personalinfo p {
@@ -161,6 +162,16 @@ html {
 	line-height: 3rem;
 	color:#112b53;
 	font-weight:300;
+}
+
+.myPhoto {
+	border-radius: 50%;
+    border: 1px solid #000;
+}
+
+.aboutMeText {
+    text-align: center;
+    width: 100%;
 }
 
 /* Styling portfolio section */
@@ -255,7 +266,12 @@ html {
 	font-size: 1.1rem;
 }
 
-.box-imgcontainer {
+.tool {
+	width: 34px;
+	height: auto;
+}
+
+.box-imgcontainer > {
 	text-align: center;
 }
 
@@ -283,7 +299,7 @@ html {
 	top: -93px;
 }
 
-.box-imgcontainer img {
+.box-imgcontainer > img {
 	width: 100%;
 	max-width: 400px;
 }
