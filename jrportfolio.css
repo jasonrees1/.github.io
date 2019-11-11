@@ -154,24 +154,34 @@ html {
 	padding: 3rem 8rem;
 	text-align: center;
     width: 100%;
+    overflow: auto;
 }
 
 .personalinfo p {
 	font-family: "Helvetica Neue", sans-serif;
 	font-size:1.6rem;
 	line-height: 3rem;
+    text-align: left;
 	color:#112b53;
 	font-weight:300;
+}
+
+.personalPicture {
+    background-color: #bbcfd7;
 }
 
 .myPhoto {
 	border-radius: 50%;
     border: 1px solid #000;
+    margin-left: 175px;
+    float: left;
 }
 
 .aboutMeText {
     text-align: center;
-    width: 100%;
+    width: 40%;
+    float: left;
+    margin-left: 125px;
 }
 
 /* Styling portfolio section */
