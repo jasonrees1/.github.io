@@ -89,7 +89,7 @@ html {
 	margin-top: 88px;
 	filter: grayscale(60%);
 	z-index:-1;
-	transition: all 3.0s;
+	/*transition: all 3.0s;*/
 }
 
 
@@ -122,12 +122,6 @@ html {
 	background-color:#bbcfd7;
 }
 
-/*.myinfocontainer {*/
-/*	width: 50%;*/
-/*	margin: 0 auto;*/
-/*	overflow: auto;*/
-/*}*/
-
 .buttoncontainer {
 	width: 30%;
 	margin-top: 101px;
@@ -138,7 +132,6 @@ html {
 	font-size: 2rem;
 	color: #fff;
 	text-decoration: none;
-	/*border: 2px solid #000;*/
 	padding: 11px;
 	background-color: #8da8b2;
 }
@@ -181,7 +174,7 @@ html {
     text-align: center;
     width: 40%;
     float: left;
-    margin-left: 125px;
+    margin-left: 214px;
 }
 
 /* Styling portfolio section */
@@ -226,7 +219,6 @@ html {
 	width: 33.3%;
 	height: auto;
 	padding: 0 50px;
-	/*margin-bottom: 0.5rem;*/
 	transition: linear 0.25s;
 	min-height: 230px;
 }
@@ -394,8 +386,8 @@ html {
 	color: #000;
 }
 /* Media Queries */
-/*Media queries for between 769px and 1050px*/
-@media screen and (max-width:1050px) {
+/*Media queries for between 641px and 1023px*/
+@media screen and (max-width:1023px) {
 	.show-for-small{display:block;}
 	.show-for-large{display:none;}
 /* MQ's for header */
@@ -487,21 +479,40 @@ html {
 		padding: 0 20px;
 	}
 }
-/*Media queries for up to 768px*/
-@media screen and (max-width:768px) {
+/*Media queries for up to 640px*/
+@media screen and (max-width:640px) {
 	.show-for-small{display:block;}
 	.show-for-large{display:none;}
 /* MQ's for portfolio section */
 	.box-1container {
 		width: 100%;
 	}
+	.bigpicturecontainer h3 {
+		font-size: 2rem;
+	}
 	.bigpicturecontainer .content {
-	    padding-top: 122px;
-	    padding-bottom: 66px;
+	    padding-top: 51px;
+	    padding-bottom: 65px;
+	}
+	.myPhoto {
+		margin-top: 0px;
+		margin-left: 70px;
+	}
+	.aboutMeText {
+		text-align: center;
+		width: 160%;
+		float: left;
+		margin-left: 13px;
 	}
 /* MQ's for about me and contact me sections */
 	.buttoncontainer {
 	width: 100%;
 	margin: 30px auto 0 auto;
 	text-align: center;
-}}
+}
+	.personalinfo {
+		width: 85%;
+		font-size: 1.6rem;
+		margin-top: 17px;
+	}
+}
