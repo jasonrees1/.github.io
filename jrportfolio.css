@@ -464,11 +464,16 @@ html {
 	.personalinfo {
 		width: 85%;
 		font-size: 1.6rem;
-		margin-top: 17px;
+		margin: 0 auto;
 	}
 
 	.personalinfo p {
 		line-height: 36px;
+	}
+
+	.myPhoto {
+		margin: 0px;
+		float: none;
 	}
 
 	.aboutMeText {
