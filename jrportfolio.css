@@ -501,8 +501,8 @@ html {
 	.aboutMeText {
 		text-align: center;
 		width: 100%;
-		float: left;
-		margin-left: 13px;
+		/*float: left;*/
+		/*margin-left: 13px;*/
 	}
 /* MQ's for about me and contact me sections */
 	.buttoncontainer {
