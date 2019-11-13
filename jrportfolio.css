@@ -470,6 +470,12 @@ html {
 	.personalinfo p {
 		line-height: 36px;
 	}
+
+	.aboutMeText {
+		width: 84%;
+		float: left;
+		margin-left: 73px;
+	}
 	/*MQ's for portfolio section*/
 	.box-3container {
 		width: 100%;
