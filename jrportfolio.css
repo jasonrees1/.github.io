@@ -469,6 +469,7 @@ html {
 
 	.personalinfo p {
 		line-height: 36px;
+		text-align: center;
 	}
 
 	.myPhoto {
@@ -478,8 +479,8 @@ html {
 
 	.aboutMeText {
 		width: 84%;
-		float: left;
-		margin-left: 73px;
+		float: none;
+		margin: 0 auto;
 	}
 	/*MQ's for portfolio section*/
 	.box-3container {
@@ -507,8 +508,7 @@ html {
 	    padding-bottom: 65px;
 	}
 	.myPhoto {
-		margin-top: 0px;
-		margin-left: 70px;
+		margin: 0 auto;
 	}
 	.aboutMeText {
 		text-align: center;
