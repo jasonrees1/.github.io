@@ -89,7 +89,6 @@ html {
 	margin-top: 88px;
 	filter: grayscale(60%);
 	z-index:-1;
-	/*transition: all 3.0s;*/
 }
 
 
@@ -244,6 +243,7 @@ html {
 .box-1container a {
 	text-decoration: none;
 	color:#000;
+	display: block;
 }
 
 .box-textcontainer {
@@ -258,6 +258,7 @@ html {
 	font-size: 2.5rem;
 	font-weight:200;
 	line-height:2rem;
+	margin-bottom: 10px;
 }
 
 .box-textcontainer p{
@@ -267,8 +268,8 @@ html {
 }
 
 .tool {
-	width: 34px;
-	height: auto;
+	width: auto;
+	height: 30px;
 }
 
 .box-imgcontainer > {
@@ -288,7 +289,7 @@ html {
 	font-family: "Helvetica Neue", sans-serif;
 	font-size: 2.5rem;
 	font-weight: 300;
-	padding-top: 5px;
+	padding-top: 15px;
 	margin-top: 0;
 	color: #112b53;
 	letter-spacing: 0.3px;
