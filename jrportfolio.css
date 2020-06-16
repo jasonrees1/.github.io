@@ -160,9 +160,10 @@ html {
 
 .personalPicture {
     background-color: #bbcfd7;
-	width: 50%;
+	width: 30%;
 	display: block;
 	float: left;
+	margin-top: 1.5rem;
 }
 
 .myPhoto {
@@ -470,8 +471,9 @@ html {
 	}
 
 	.personalinfo p {
-		line-height: 36px;
+		line-height: 3rem;
 		text-align: center;
+
 	}
 
 	.myPhoto {
